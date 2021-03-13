@@ -21,5 +21,5 @@ class WinAccess(tk.Tk):
         self.userPass.grid(row = 1, column = 1, pady = 5)
 
         # Button Acept & Cancel
-        tk.Button(frame, text = 'Aceptar').grid(row = 2, column = 1, padx = 5, pady = 5)
-        tk.Button(frame, text = 'Cancelar').grid(row = 2, column = 2, padx = 5, pady = 5)
+        tk.Button(frame, text = 'Aceptar').grid(row = 2, column = 2, padx = 5, pady = 5)
+        tk.Button(frame, text = 'Cancelar').grid(row = 2, column = 3, padx = 5, pady = 5)
