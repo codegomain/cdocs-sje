@@ -11,13 +11,13 @@ class WinAccess(tk.Tk):
         
         # User Input
         tk.Label(frame, text = ' Usuario: ').grid(row = 0, column = 0)
-        self.userInput = tk.Entry(frame, width = 16)
+        self.userInput = tk.Entry(frame, width = 32)
         self.userInput.focus()
         self.userInput.grid(row = 0, column = 1, pady = 5)
 
         # Password Input
         tk.Label(frame, text = ' Contraseña: ').grid(row = 1, column = 0)
-        self.userPass = tk.Entry(frame, width = 16, show = '*')
+        self.userPass = tk.Entry(frame, width = 32, show = '*')
         self.userPass.grid(row = 1, column = 1, pady = 5)
 
         # Button Acept & Cancel
