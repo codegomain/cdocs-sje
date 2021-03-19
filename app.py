@@ -1,7 +1,8 @@
 from ui import WinAccess
 
 def main():
-    winpass = WinAccess()
+    userBd = ('Diego', 'qwerty')
+    winpass = WinAccess(userBd)
     winpass.mainloop()
 
 if __name__ == "__main__":
